@@ -7,7 +7,7 @@ GspGroovyDummyHolder
     GspRunMethod
       GspRunBlock
         Outer: GSP TEMPLATE STATEMENTS('<abc>\n')
-        PsiElement(JSCRIPT_END)('<%')
+        PsiElement(JSCRIPT_BEGIN)('<%')
         PsiWhiteSpace(' ')
         Method call
           Reference expression
@@ -21,7 +21,7 @@ GspGroovyDummyHolder
         PsiWhiteSpace(' ')
         PsiElement(JSCRIPT_END)('%>')
         Outer: GSP TEMPLATE STATEMENTS(' ')
-        PsiElement(JSCRIPT_END)('<%')
+        PsiElement(JSCRIPT_BEGIN)('<%')
         PsiWhiteSpace(' ')
         Method call
           Reference expression
@@ -35,7 +35,7 @@ GspGroovyDummyHolder
         PsiWhiteSpace(' ')
         PsiElement(JSCRIPT_END)('%>')
         Outer: GSP TEMPLATE STATEMENTS(' ')
-        PsiElement(JSCRIPT_END)('<%')
+        PsiElement(JSCRIPT_BEGIN)('<%')
         PsiWhiteSpace(' ')
         Method call
           Reference expression
